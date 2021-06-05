@@ -74,6 +74,7 @@ function calculate(e){
             mode = "value1";
             valueOperateur = "";
             displayValue = "";
+            point = false;
         }
     }
 }
