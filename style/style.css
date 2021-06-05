@@ -1,5 +1,5 @@
 body{
-    background: radial-gradient(circle, rgba(211,238,174,1) 0%, rgba(148,187,233,1) 100%);
+    background: radial-gradient(circle, rgb(203, 231, 164) 0%, rgb(126, 173, 228) 100%);
 }
 
 
@@ -10,23 +10,45 @@ body{
     padding: 10px;
     margin-top: 40px;
     background: rgba( 255, 255, 255, 0.25 );
-    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    /* box-shadow: 0 4px 16px 0 rgba( 31, 38, 135, 0.37 ); */
     backdrop-filter: blur( 4px );
     -webkit-backdrop-filter: blur( 4px );
     border-radius: 24px;
-    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    border: 3px solid rgba(182, 182, 182, 1);
 }
 
 #display{
-    width : 370px;
-    height: 100px;
-    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    padding : 20px;
+    text-align: end;
+    text-justify: auto;
+    font-size: 60px;
+    color : rgb(56, 56, 56);
+    font-family: Arial, Helvetica, sans-serif;
+    width : 330px;
+    height: 70px;
+    border: 3px solid rgba(182, 182, 182, 0.473);
     background: rgba( 255, 255, 255, 0.25 );
     margin : auto;
-    border-radius: 24px;
+    margin-bottom: 10px;
+    border-radius: 14px;
+}
+#x{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.number{
+    color : rgb(0, 0, 0);
+    font-size: 30px;
+    height: 61px;
+    width: 83px;
+    margin: 4px;
+    background: rgba( 255, 255, 255, 0.25 );
+    backdrop-filter: blur( 4px );
+    -webkit-backdrop-filter: blur( 4px );
+    border-radius: 14px;
+    border: 3px solid rgba(182, 182, 182, 0.473);
 }
 
-.number{
+#egal{
     color : rgb(0, 0, 0);
     font-size: 30px;
     height: 60px;
@@ -36,54 +58,66 @@ body{
     backdrop-filter: blur( 4px );
     -webkit-backdrop-filter: blur( 4px );
     border-radius: 14px;
-    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    border: 3px solid rgba(182, 182, 182, 0.473);
 }
 #clear{
     color : rgb(0, 0, 0);
     font-size: 30px;
-    height: 60px;
-    width: 170px;
+    height: 65px;
+    width: 177px;
     margin: 4px;
     background: rgba(50, 214, 255, 0.25);
     backdrop-filter: blur( 4px );
     -webkit-backdrop-filter: blur( 4px );
     border-radius: 14px;
-    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    border: 3px solid rgba(182, 182, 182, 0.473);
 }
 
 #delete{
     color : rgb(0, 0, 0);
     font-size: 30px;
-    height: 60px;
-    width: 170px;
+    height: 65px;
+    width: 177px;
+    margin-left: 4px;
     background: rgba(255, 77, 77, 0.25);
     backdrop-filter: blur( 4px );
     -webkit-backdrop-filter: blur( 4px );
     border-radius: 14px;
-    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    border: 3px solid rgba(182, 182, 182, 0.673);
 }
 
 .operateur{
-    color : rgb(0, 0, 0);
+    color : rgb(255, 255, 255);
     font-size: 30px;
-    height: 60px;
-    width: 82px;
-    background: rgba( 255, 255, 255, 0.25 );
+    height: 61px;
+    width: 83px;
+    background: rgba(0, 0, 0, 0.25);
     backdrop-filter: blur( 4px );
     -webkit-backdrop-filter: blur( 4px );
     border-radius: 14px;
-    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    border: 3px solid rgba(182, 182, 182, 0.473);
 }
 
-button:hover{
+.number:hover{
     cursor: pointer;
     background-color: rgba( 255, 255, 255, 0.8 );
 }
-
+.operateur:hover{
+    cursor: pointer;
+    color: black;
+    background-color: rgba( 255, 255, 255, 0.8 );
+}
+#egal:hover{
+    cursor: pointer;
+    background-color: rgba( 255, 255, 255, 0.8 );
+}
 #delete:hover{
+    cursor: pointer;
     background: rgba(255, 77, 77, 0.4);
 }
 
 #clear:hover{
+    cursor: pointer;
     background: rgba(50, 214, 255, 0.4);
 }
+
